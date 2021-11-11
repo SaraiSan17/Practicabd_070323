@@ -4,8 +4,9 @@ const mysqlConnection = mysql.createConnection({
     host:'sql10.freemysqlhosting.net',
     user: 'sql10450260',
     password:'MUuFGjypP2',
-    database:'sql5447929',
-
+    database:'sql10450260',
+    port:'3306',
+    multipleStatements: true
 });
 
 
